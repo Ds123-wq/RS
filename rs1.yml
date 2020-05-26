@@ -15,7 +15,7 @@ spec:
          labels:
              env: production
              dc: "2"
-             region:In
+             region: In
        spec:
          containers:
              - name: myweb-cont
