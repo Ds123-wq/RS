@@ -8,7 +8,6 @@ spec:
    selector: 
        matchExpressions:
               - { key: env , operator: In, values: [ production ] } 
-              - { key: env , operator: In, values: [ testing ] } 
    template:
        metadata: 
          name: mypod
